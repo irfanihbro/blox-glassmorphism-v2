@@ -8,6 +8,7 @@
     --second-color: #b9b9b9;
     --primary-color: #b5b5b5;
     --black-color: #020101;
+    --tertiary-color: #f5f5f5;
     --bg-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -78,7 +79,7 @@ a:hover {
 
 .login_title:hover {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--tertiary-color);
 }
 
 .login_title span {
@@ -107,7 +108,7 @@ a:hover {
 }
 
 .input_field:focus {
-    border-color: var(--primary-color);
+    border-color: var(--tertiary-color);
     box-shadow: 0 0 8px rgba(78, 144, 229, 0.6);
 }
 
@@ -130,7 +131,7 @@ a:hover {
     font-size: 14px;
     top: -10px;
     left: 20px;
-    background-color: var(--primary-color);
+    background-color: var(--tertiary-color);
     color: var(--black-color);
     border-radius: 30px;
     padding: 0 10px;
